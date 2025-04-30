@@ -1,5 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/counter_model.dart';
+import '../repositories/counter_service_repo.dart';
 import '../services/counter_service.dart';
 
 class CounterViewModel extends StateNotifier<CounterModel> {
